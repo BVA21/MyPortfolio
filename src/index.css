@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9f9;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  display: block;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* .bg {
+  width: 100%;
+  background-image: url(https://sport.mail.ru/img/_main/subnav.png);
+} */
+
+header {
+  padding-right: 16px;
+  padding-left: 16px;
+  height: 80px;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: #efefef 4px 2px 8px;
+}
+
+.logo-header {
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16pt;
+  color: darkred;
+}
+
+.nav-bar {
+  padding-right: 10px;
+  display: flex;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.contact, .cert, .about {
+  list-style-type: none;
+  padding: 30px 36px 28px 36px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.contact:hover, .cert:hover, .about:hover {
+  list-style-type: none;
+  background-color: #c6d1e0;
+  padding: 30px 36px 28px 36px;
+}
+
+/* основной контент */
+
+section {
+  margin-top: 20px;
+}
+
+.profile {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 6px;
+  border: 2px solid #b8b8b8
+}
+
+.name-full {
+  font-size: 20pt;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.avatar img {
+  margin-right: 40px;
+  width: 130px;
+  height: 173px;
+}
+
+.about-me {
+  max-width: 800px;
+  border-radius: 6px;
+  background-color: rgb(219, 219, 219);
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.block-certificates {
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 6px;
+  background-color: #fdfdfd;
+  border: 3px solid #a4dcff;
+  padding: 30px;
+  box-shadow: #cdcdcd 4px 2px 8px 4px;
+}
+
+.certificate {
+  width: 600px;
+  margin: 0 auto;
+  background-color: khaki;
+}
+
+.block-certificates img {
+  width: inherit;
+}
+
+#next-picture {
+  border-radius: 4px;
+  border: 2px solid #a4dcff;
+  margin-top: 12px;
+  padding: 16px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fafafa;
+}
+
+#next-picture:hover {
+  background-color: #efefef;
+}
+
+#next-picture:active {
+  background-color: #dfdfdf;
+}
+
+/* Подвал сайта */
+
+footer {
+  width: 100%;
+  margin-top: 60px;
+  background-color: darkcyan;
+}
+
+.footer-links {
+  max-width: 400px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.footer-links a div{
+  margin: 0 30px 0 30px;
+}

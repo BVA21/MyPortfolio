@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div class="bg"></div>
+
+    <div id="root">
+
+      <!-- Навигационная секция -->
+      <header class="header container">
+        <div class="logo-header"><p>My portfolio site</p></div>
+        <nav>
+          <ul class="nav-bar">
+            <li class="contact"><a href="#footer-links">Contacts</a></li>
+            <li class="cert"><a href="#block-certificates">Certificate</a></li>
+            <li class="about"><a href="#about-me">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Основной контент веб-страницы -->
+      <div class="content">
+        <section class="me">
+          <div class="profile">
+            <div class="avatar">
+              <img src="https://sun9-13.userapi.com/impg/2junFAE1gVdoP7jr4QA2xr7MFno4steX71vECw/pFNTA9s5NHY.jpg?size=130x173&quality=95&sign=c018d1ab53c23721529299eb6e268af0&type=album" alt="Аватарка">
+            </div>
+            <div class="description">
+              <p class="name-full">Владислав Блинцов</p>
+              <p class="old-full">20 лет</p>
+              <p class="place-of-study">Студент 3-го курса ИТА ЮФУ <br>
+                ИРТСУ, Кафедра САУ </p>
+            </div>
+            </div>
+          </div>
+        </section>
+        <section class="about-me" id="about-me">
+          <div>
+            <h1>Немного обо мне</h1>
+            <p>
+              Нууу, как вы уже поняли, меня зовут Влад. Родился я в Краснодарском крае,
+              а если быть точнее, то в станице Тбилисской (это такая большая деревня. Разумеется
+              она меньше г.Таганрога или Ростова-на-Дону, но после 3-х лет жизни в этих городах,
+              я точно для себя понял, они мне нравятся меньше Краснодарских деревень :D ).
+              Но не об этом щас! <br><br>
+
+              В 2019 году я поступил в "ИТА ЮФУ" на кафедру МОП ЭВМ, ИКТИБ. Проучившись там буквально один год,
+              для меня стало ясно только одно, с нас много требуют, а учат ровно так-же, как я учился до этого,
+              то есть сам. Соответственно я решил перевестись на более простую специальность, а именно
+              "САУ" - Автоматизация технологических процессов и проихводств, где учусь по сей день, но
+              своего будущего с ней не связываю. <br><br>
+
+              На сегодняшний день я активно изучаю front-end, но и куда без back-end-а
+              естественно. Короче, в заключение могу сказать так, "большинство языков очень похожи
+              между собой, и имея большой опыт в одном языке, второй будет учиться гораздо быстрее, а 
+              третий так вообще на раз-два"
+            </p>      
+          </div>
+        </section>
+        <section class="block-certificates" id="block-certificates">
+          <div class="certificate">
+            <img src="https://www.sololearn.com/Certificate/1024-8034487/jpg/" alt="JS" id="image">
+          </div>
+          <div id="next-picture">Смотреть далее</div>
+        </section>
+      </div>
+
+      <!-- Информация об авторских правах и т.д. -->
+      <footer>
+        <div class="footer-links" id="footer-links">
+          <a href="https://t.me/BVA21">
+            <div><svg width="48px" height="48px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+              <g>
+                  <path d="M128,0 C57.307,0 0,57.307 0,128 L0,128 C0,198.693 57.307,256 128,256 L128,256 C198.693,256 256,198.693 256,128 L256,128 C256,57.307 198.693,0 128,0 L128,0 Z" fill="#40B3E0"></path>
+                  <path d="M190.2826,73.6308 L167.4206,188.8978 C167.4206,188.8978 164.2236,196.8918 155.4306,193.0548 L102.6726,152.6068 L83.4886,143.3348 L51.1946,132.4628 C51.1946,132.4628 46.2386,130.7048 45.7586,126.8678 C45.2796,123.0308 51.3546,120.9528 51.3546,120.9528 L179.7306,70.5928 C179.7306,70.5928 190.2826,65.9568 190.2826,73.6308" fill="#FFFFFF"></path>
+                  <path d="M98.6178,187.6035 C98.6178,187.6035 97.0778,187.4595 95.1588,181.3835 C93.2408,175.3085 83.4888,143.3345 83.4888,143.3345 L161.0258,94.0945 C161.0258,94.0945 165.5028,91.3765 165.3428,94.0945 C165.3428,94.0945 166.1418,94.5735 163.7438,96.8115 C161.3458,99.0505 102.8328,151.6475 102.8328,151.6475" fill="#D2E5F1"></path>
+                  <path d="M122.9015,168.1154 L102.0335,187.1414 C102.0335,187.1414 100.4025,188.3794 98.6175,187.6034 L102.6135,152.2624" fill="#B5CFE4"></path>
+              </g>
+          </svg></div>
+          <a href="https://github.com/BVA21">
+            <div><svg height="48" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="48" data-view-component="true" class="octicon octicon-mark-github v-align-middle">
+              <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+          </svg></div>
+          </a>
+          </a>
+          <a href="https://leader-id.ru/users/1618671">
+            <div><svg width="135" height="48" viewBox="0 0 135 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 19.04V0h3.611v16.063h8.595v2.977H0zm15.693 0V0h11.764v2.977h-8.193v4.988h6.615v2.976h-6.615v5.122h8.635v2.977H15.693zm13.95 0L36.492 0h3.74l6.848 19.04h-3.63l-1.678-4.88h-6.848l-1.65 4.88h-3.63zm6.394-7.84h5.23l-1.78-4.965c-.34-1.046-.792-2.875-.792-2.875h-.057s-.452 1.83-.792 2.875l-1.81 4.965zm14.53 7.84V0h6.754c6.112 0 10.103 3.486 10.103 9.493S63.433 19.04 57.32 19.04h-6.753zm3.488-3.36h2.883c3.915 0 6.417-2.243 6.417-6.466 0-4.17-2.556-6.414-6.417-6.414h-2.883v12.88zm17.437 3.36V0h11.763v2.977h-8.192v4.988h6.615v2.976h-6.615v5.122h8.635v2.977H71.492zm16.275 0V0h6.573c1.966 0 2.921.16 3.764.51 2.05.804 3.371 2.628 3.371 5.202 0 2.253-1.236 4.398-3.343 5.203v.053s.253.295.646.992l4.101 7.08h-4.073l-3.932-7.106H91.39v7.106h-3.624zm4.069-10.08h3.252c1.935 0 3.141-1.193 3.141-3.136 0-1.248-.477-2.247-1.57-2.691-.505-.222-1.094-.333-2.187-.333h-2.636v6.16z" fill="#1E1E2F"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M113.923 19.04h3.487V0h-3.487v19.04zM130.069 0h-10.334v19.04h10.334l4.778-4.613V4.614L130.069 0zm-6.847 16.24h8.719V3.36h-8.719v12.88z" fill="#2185FB"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M131.36 17.92l3.487-3.267V4.387L131.36 1.12v16.8z" fill="#116CD8"></path></svg></div>
+          </a>
+        </div>
+      </footer>
+
+    </div>
+
+  </body>
+</html>
